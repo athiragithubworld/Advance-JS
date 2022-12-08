@@ -101,6 +101,7 @@
      var st = Stfunct.bind(student);
 
      st();
+     // console.log();
 
 // Output: 32
 
