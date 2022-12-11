@@ -246,16 +246,85 @@
 // var bound = FunctN .bind(obj);
 // console.log(bound(1,1,1));
 // -------------------
-var student ={
-    name:"Athi",
-    age:32
-    };
-    var Stfunct = function(){
-        console.log(this.age);
-    };
-    var st = Stfunct.bind(student);
-    st();
-    
+// var student ={
+//     name:"Athi",
+//     age:32
+//     };
+//     var Stfunct = function(){
+//         console.log(this.age);
+//     };
+//     var st = Stfunct.bind(student);
+//     st();
+    // ------------------Task 10-----------------------
+//     function y(){
+//     setTimeout(() => console.log(a), 1000)
+//         console.log('Done Coding')
+// }
+// y();
+// ---------------------------------------
+// function y(){
+// setTimeout(() => console.log(a), 0)
+//     console.log('Done Coding')
+//     }
+//     y();
+// ------------------------------------
+// function y(){
+// for(var i=1;i<6;i++){
+//     setTimeout(() => console.log(i ), i * 1000)
+//     }
+//     console.log('Done Coding')
+//     }
+//     y();
+// -----------------------------
+// function y(){
+// for(let i=1;i<6;i++){
+//     setTimeout(() => console.log(i ), i * 1000)
+//     }
+//     console.log('Done Coding')
+//     }
+//     y();
+// ------------------
+// const fun = (arr) =>{
+//     let count=0;
+//     return () =>{
+//     console.log('Hello '+arr[count])
+//     count++;
+//     }
+//     }
+//     const name = fun(['Ram' ,'Shyam']);
+//     name();
+//     name();
+// ------------------------------task 11 ----
+// a()
+// b()
+// function a(){
+// console.log('inside a');
+// }
+// var b = function (){
+// console.log('inside b');
+// }
+// ------------------------currying example----
+// function fun1(){
+//     console.log("fun1 called");
+//     return function fun2(){
+//         console.log("fun2 called");  
+//     }
+// }
+// fun1()();
+// ---------------------
+// function sum1(x){
+//     return function sum2(y){
+
+// return function sum3(z)
+// {
+//     console.log(x*y+z);
+// }
+// }
+// }
+// sum1(2)(3)(2);
+
+
+
     
     
     
